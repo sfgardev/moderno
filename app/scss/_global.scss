@@ -8,6 +8,8 @@ html{
 }
 a{
     display: inline-block;
+    text-decoration: none;
+    color: $text;
 }
 ul,
 li{
@@ -16,7 +18,11 @@ li{
     list-style: none;
 }
 body{
-    font-family: 'Robotto-Regular';
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: $text;
+    font-weight: 400;
 }
 .container{
     max-width: 1200px;
