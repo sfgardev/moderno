@@ -1886,6 +1886,41 @@ button.icon-unsorted{
         border: 1px solid #dedede;
         padding: 0 10px;
     }
+    .jq-selectbox{
+        width: 100%;
+        max-width: 540px;
+    }
+    .jq-selectbox__select {
+        height: 40px;
+        padding: 0 18px;
+        border: 1px solid #d7d7d7;
+        border-bottom-color: #d7d7d7;
+        border-radius: 0px;
+        background: #f9f9f9;
+        box-shadow: none;
+        font-family: 'Roboto-Regular', sans-serif;
+        color: #707070;
+        text-shadow: none;
+        line-height: 40px;
+    }
+    .jq-selectbox__trigger-arrow{
+        border: none;
+        line-height: 40px;
+        font-size: 15px;
+        top: 0;
+        right: 20px;
+        &::before{
+            content: "\f0d7";
+            font-family: 'icomoon';
+            
+        }
+    }
+    .jq-selectbox__trigger{
+        border-left: none;
+    }
+    .jq-selectbox__dropdown{
+        top: 37px;
+    }
 }
 
 // end settings
